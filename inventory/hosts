@@ -1,0 +1,21 @@
+#
+# Hosts definition
+sample-host-01 ansible_ssh_host=1.2.3.4 ansible_ssh_port=22 ansible_ssh_user=root
+sample-host-02 ansible_ssh_host=3.4.5.6 ansible_ssh_port=22 ansible_ssh_user=ubuntu
+sample-host-03 ansible_ssh_host=9.8.7.6 ansible_ssh_port=22 ansible_ssh_user=root
+
+[all]
+sample-host-01
+sample-host-02
+sample-host-03
+
+[sample-group-1]
+sample-host-01
+
+[sample-group-2]
+sample-host-01
+sample-host-02
+
+[sample-group-3]
+sample-host-02
+sample-host-03

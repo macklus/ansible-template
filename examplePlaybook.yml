@@ -1,0 +1,6 @@
+---
+# file: examplePlaybook.yml
+- hosts: all
+  gather_facts: True
+  roles:
+    - example/install

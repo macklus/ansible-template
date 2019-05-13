@@ -1,0 +1,4 @@
+---
+define_hostname: sample-host-01.my.net
+example:
+  install: true
